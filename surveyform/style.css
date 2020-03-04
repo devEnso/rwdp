@@ -1,0 +1,99 @@
+:root {
+  font-size: 15px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/3/3f/DJ_Krush.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc; 
+  font-size: 1em;
+  font-family: Nunito, Verdana;
+  
+  margin: 0;
+}
+
+textarea {
+  height: 10em;  
+}
+
+button {
+  height: 3em;  
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  min-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.397);
+  color: ivory;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 600px;
+    min-width: 600px;
+  }
+}
+
+.form-item {
+  align-self: stretch;
+  margin: 0px 30px 5px 30px;
+}
+.container-top {
+  margin-top: 20px;  
+}
+
+.form-label {
+  align-self: flex-start;
+  margin: 5px 50px 5px 30px;
+}
+
+.form-text-box {
+  align-self: stretch;
+  margin: 0px 30px 15px 30px;
+}
+
+.form-button {
+  align-self: stretch;
+  margin: 0px 30px 15px 30px;
+}
+
+#title {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+#description {
+  margin: 5px 20px 20px 20px;
+  padding: 0px;
+  border: 0px;
+}
+
+input[type="radio"] {
+  margin-left: 15px;
+  margin-right: 8px;
+}
+
+input[type="checkbox"] {
+  margin-left: 15px;
+  margin-right: 8px;
+}
+

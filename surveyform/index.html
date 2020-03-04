@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Survey Form</title>
 </head>
+
 <body>
-    
+  <main id="main">
+    <div id="header" class="container container-top">
+      <h1 id="title">Lorem Ipsum dolor</h1>
+      <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div id="form-container" class="container">
+      <form id="survey-form" class="container">
+        <label id="name-label" class="form-label" for="name">Name:</label>
+        <input type="text" name="name" id="name" class="form-item" placeholder="Please enter your full name" required />
+        <label id="email-label" class="form-label" for="email">Email:</label>
+        <input type="email" name="email" id="email" class="form-item" placeholder="Please enter your email" required />
+        <label id="number-label" class="form-label" for="age">Age:</label>
+        <input type="number" name="age" id="number" class="form-item" min="18" max="125"
+          placeholder="Please enter your age" />
+        <label id="course-label" class="form-label" for="dropdown">What's your favorite album?</label>
+        <select id="dropdown" name="role" class="form-item" required>
+          <!-- a clever trick to give a unselectable placeholder -->
+          <option disabled selected value>Select your favorite DJ KRUSH Album</option>
+          <option value="intro-to-composition">Zen</option>
+          <option value="orch-for-beginners">Cosmic Yard</option>
+          <option value="int-string-arr">Jaku</option>
+          <option value="choosing-the-correct-daw">Kiseki</option>
+        </select>
+        <br>
+        <p class="form-label">How much do you love?</p>
+        <div class="form-item">
+          <label>
+            <input name="rating" value="terrible" type="radio" class="input-radio" />Terrible
+          </label>
+          <label>
+            <input name="rating" value="poor" type="radio" class="input-radio" />Poor
+          </label>
+          <label>
+            <input name="rating" value="average" type="radio" class="input-radio" checked />Average
+          </label>
+          <label>
+            <input name="rating" value="good" type="radio" class="input-radio" />Good
+          </label>
+          <label>
+            <input name="rating" value="excellent" type="radio" class="input-radio" />Excellent
+          </label>
+        </div>
+        <p class="form-label">How would you like us to stay in touch?</p>
+        <div class="form-item">
+          <label><input name="contact" value="email" type="checkbox" />Email</label>
+          <label><input name="contact" value="Text" type="checkbox" />Text</label>
+          <label><input name="contact" value="Post" type="checkbox" />Post</label>
+        </div>
+        <p class="form-label">If you have any further comments, please them below:</p>
+        <textarea id="comments" class="form-text-box" name="comment"
+          placeholder="Please enter your comments here"></textarea>
+        <button type="submit" id="submit" class="form-button">
+          Submit
+        </button>
+      </form>
+    </div>
+  </main>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>

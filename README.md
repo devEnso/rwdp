@@ -8,7 +8,7 @@ hey, this repository is for **freecodecamp**. it is for educational purposes onl
 
 | introduction to the responsive web design projects               |passed?					 |                      |
 |----------------|-------------------------------|-----------------------------|
-|build a tribute page |`'not passed'`            |         |
+|build a tribute page |`'passed'`            |         |
 |build a survey form |`'not passed'`             |          |
 |build a product landing page|`'not passed'` ||
 |build a tribute page |`'not passed'`            |         |
