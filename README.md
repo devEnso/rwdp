@@ -1,14 +1,17 @@
-**Responsive Web Design Projects**
-Not Passed0/5
-IntroInformation
-Introduction to the Responsive Web Design Projects
-Not Passed
-Build a Tribute Page
-Not Passed
-Build a Survey Form
-Not Passed
-Build a Product Landing Page
-Not Passed
-Build a Technical Documentation Page
-Not Passed
-Build a Personal Portfolio Webpage
+# Responsive Web Design Projects!
+
+hey, this repository is for **freecodecamp**. it is for educational purposes only. thanks
+
+
+## Responsive Web Design Projects
+
+
+| introduction to the responsive web design projects               |passed?					 |                      |
+|----------------|-------------------------------|-----------------------------|
+|build a tribute page |`'not passed'`            |         |
+|build a survey form |`'not passed'`             |          |
+|build a product landing page|`'not passed'` ||
+|build a tribute page |`'not passed'`            |         |
+|build a technical documentation page |`'not passed'`            |         |
+|build a personal porfolio webpage |`'not passed'`            |         |
+
