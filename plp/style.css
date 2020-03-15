@@ -1,0 +1,28 @@
+html,
+body {
+    margin: 12px;
+    display:flex;
+}
+#nav-bar {
+    position: fixed;
+    padding-left: 16%;
+    margin-left: 9%;
+    padding-right: 45%;
+}
+.content {
+    text-align: center;
+    padding: 100px;
+}
+#container {
+	background-color: rgb(241, 250, 241);
+}
+
+@media (min-width: 600px) {
+	#container {
+		background-color: rgb(216, 216, 216);
+	}
+}
+
+.navbar-nav {
+    padding-left: 75%;
+}

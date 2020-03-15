@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Document</title>
 </head>
-<body>
-    
+
+<body id="container">
+    <header id="header">
+        <nav id="nav-bar" class="navbar navbar-expand narbar-light bg-light">
+
+            <a id="bookslogo" class="navbar-brand" href="#header-img">
+                <img id="header-img" alt="productlogo" height="50px" width="auto"
+                    src="https://mark.trademarkia.com/logo-images/es-u-es-corporation/k-dj-krush-75502934.jpg">
+                Dj Krush Fans
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav" id="navbarLinks">
+
+                    <a class="nav-item nav-link" href="#about">
+                        About
+                    </a>
+
+                    <a class="nav-item nav-link" href="#taniyin">
+                        Taniyin
+                    </a>
+
+                    <a class="nav-item nav-link" href="#pricing">
+                        Pricing
+                    </a>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2 id="about" class="font-helvetica">Who We Are?</h2>
+        <p class="font-helvetica">Bizler iyi dinleyici olarak, Dj Krush'ın hayranlarıyız. Sizde bize katılmak
+            istiyorsanız
+            <b>Kıyafetler</b>, <b>cuplar</b>, ve <b>daha fazlası</b>. için hemen siteyi gezinip karar verin. Sizde
+            hayranı olacaksınız büyük ihtimal, iyi gezinmeler. iyi eğlenceler efenim</p>
+        <hr />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2 id="taniyin" class="font-helvetica">DJ Krush'ı Tanıyın!</h2>
+        <p class="font-helvetica">SONIC TEMPLE　DJ KRUSH at 増上寺:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uwERBeBYxA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="font-helvetica"><em>More <a href="https://www.youtube.com/channel/UCa_ajBCkd07ZIx4qP1kcP8g"
+                    target="_blank">DJ Krush (YouTube)</a>.</em></p>
+
+         <hr />
+         <br />
+         <br />
+         <br/>
+         <h2 id="pricing" class="font-helvetica">Store</h2>
+        <div class="w3-card-4 w3-dark-grey" style="width:70%; display: inline-flex; ">
+
+            <div class="w3-container w3-center">
+                <h3>Message at the depth</h3>
+                <img src="https://res.cloudinary.com/teepublic/image/private/s--Fe3_f2UV--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,h_626/c_crop,g_north_west,h_626,w_470,x_-10,y_0/g_north_west,u_upload:v1462829016:production:blanks:z4jtymp7j16d6pgpvkl4,x_-405,y_-325/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1565438161/production/designs/5566849_1.jpg" alt="Avatar" style="width:80%; height: 210px;">
+                <h5>T-Shirt</h5>
+
+                <div class="w3-section">
+                    <button class="w3-button w3-green">Buy</button>
+                    <button class="w3-button w3-red">$23,00 USD</button>
+                </div>
+            </div>
+            
+            <div class="w3-container w3-center">
+                <h3>If Loving Dj Krush</h3>
+                <img src="https://d1w8c6s6gmwlek.cloudfront.net/djfestivaltees.com/products/168/010/16801027.png" alt="Avatar" style="width:80%; height: 210px">
+                <h5>T-Shirt</h5>
+
+                <div class="w3-section">
+                    <button class="w3-button w3-green">Buy</button>
+                    <button class="w3-button w3-red">$13,00 USD</button>
+                </div>
+            </div>
+
+            <div class="w3-container w3-center">
+                <h3>Sprey</h3>
+                <img src="https://lh3.googleusercontent.com/proxy/oUr5Ld_c13Kpm0XLlQO-x122XuPau0BTcabh3_RGDhQzxRa1WaNxFJjG40nx8iBpWuKwAi9XDTeUYNXaAlLrUqO0ie-r7jvL" alt="Avatar" style="width:80%; height: 210px;">
+                <h5>T-Shirt</h5>
+
+                <div class="w3-section">
+                    <button class="w3-button w3-green">Buy</button>
+                    <button class="w3-button w3-red">$11,00 USD</button>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br/>
+        <hr />
+        <br />
+        <br />
+        <br/>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <p>
+              <label for="email" id="email-label" class="text-center"> 
+                  Join the mailing list for new product:
+              </label>
+                <input id="email" type="email" name="email" placeholder="Enter your email" class="form-control" required>
+            </p>
+
+            <p>
+              <div>
+                <input id="submit" type="submit" value="Submit" class="btn btn-success block-center">
+              </div> 
+            </p>
+          </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
